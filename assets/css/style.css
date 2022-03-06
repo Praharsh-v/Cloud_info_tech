@@ -602,6 +602,7 @@ section {
   font-weight: 700;
   position: relative;
   padding-bottom: 15px;
+  padding-top: 30px;
 }
 
 .section-header h3::before {
@@ -1578,10 +1579,16 @@ section {
 
 .btn-primary.btn-lg {
     border-radius: 30px;
-    width: 90%;
+    width: 34%;
     border: none;
-    background: #7fa4db
+    background: #8292ab;
+
+  margin: 15px;
+  height: 40px;
+
+
 }
+
 .qualification{
   font-size: small;
 }
