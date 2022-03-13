@@ -112,12 +112,12 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 5px 0;
-  background: rgba(0, 0, 0, 0.9);
+  padding: 2px 2px;
+ 
 }
 
 #header.header-transparent {
-  background: rgb(255, 255, 255);
+  background: #010506;
 }
 
 #header.header-scrolled {
@@ -156,6 +156,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+.nav_back{
+  background: linear-gradient(to left, #8aa8b5, #8ca8b3, #051116);
 }
 
 
@@ -470,7 +473,15 @@ th, td {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(4,14, 15,0.8);
+  
+  
+  /*background-color: linear-gradient(to left, #8aa8b5, #8ca8b3, #051116);*/
+
+
+}
+#image_back{
+  height: 70rem !important;
 }
 
 #intro .carousel-container {
@@ -938,7 +949,8 @@ section {
   width: 1px;
   text-align: left;
   transition: .9s;
-  background-color: #46aab4 !important;
+  background-color: #ff1212 !important;
+  background: linear-gradient(to left, #305d70, #367791, #000000d1);
 }
 
 /* Facts Section
@@ -1671,7 +1683,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #2e4f56;
+  background: linear-gradient(to left, #315e70, #5e7c89, #22343c);
   padding: 60px 0 30px 0;
 }
 
